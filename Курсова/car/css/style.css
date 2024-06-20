@@ -1,0 +1,453 @@
+@font-face {
+    font-family: TriodPostnaja;
+    src: url('../font/TriodPostnaja.ttf');
+}
+@font-face {
+    font-family: Pecita;
+    src: url('../font/Pecita.otf');
+}
+@font-face {
+    font-family: Capture;
+    src: url('../font/Capture.ttf');
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: linear-gradient(to bottom left, #DCDCDC, #C0C0C0);
+	background-image: url('../img/fon.jpg');
+	background-size: cover;
+	color: black;
+	width: 100%;
+	font-size: 14pt;
+}
+header {
+    padding-top: 1.5%;
+	width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+footer {
+	width: 100%;
+	margin-top: 3%;
+	font-weight:400;
+    display: flex;
+    align-content: stretch;
+    background: black;
+    color: white;
+}
+footer h4 {
+	margin-bottom:  1%;
+}
+footer li {
+	list-style-type: none;
+}
+footer h3 {
+	width: 100%;
+	text-align: center;
+	margin: 2% 0%;
+}
+.footer__icon {
+	margin-left: -5%;
+}
+.footer {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 80%;
+    }
+
+.footer_map, .footer_contact{
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    width: 50%;
+    }
+.wrap {
+	width: 100%;
+	padding-top: 5%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    font-family: Capture;
+}
+.wrap {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    font-family: Capture;
+}
+
+.content-auth {
+	width: 30%;
+	 -webkit-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    align-self: auto;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 2%;
+    border-radius: 40px;
+
+    letter-spacing: 2px;
+}
+.error {
+    width: 40%;
+    -webkit-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    align-self: auto;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 2%;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    margin-left: 25%;
+    margin-top: 5%;
+    text-align: center;
+}
+.content-car {
+	width: 96%;
+	 -webkit-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    align-self: auto;
+    padding: 2%;
+
+
+    letter-spacing: 2px;
+}
+
+.logo {
+	width: 20%;
+	float: left;
+}
+.logo img {
+	width: 100%;
+}
+.name {
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 3%;
+	color: rgb(129, 40, 72);
+	letter-spacing: 5px;
+}
+nav {
+	width: 70%;
+	margin-left: 30%;
+	font-size: 20pt;
+	padding-bottom: 2%;
+}
+nav a {
+	margin-right: 2%;
+}
+a {
+	text-decoration: none;
+	color:  black;
+}
+a:hover {
+	color: rgb(129, 40, 72);
+}
+.check {
+	border-bottom: 2px solid rgb(129, 40, 72);
+}
+.footer-img {
+	width: 30%;
+	margin-left: 70%;
+	text-align: right;
+}
+footer h3 {
+	float: left;
+	width: 70%;
+	text-align: center;
+}
+footer a {
+    color: white;
+}
+.menu li {
+	list-style-type: none;
+	font-size: 16pt;
+	margin-bottom: 5%;
+}
+
+			
+.up {
+	text-decoration: none;
+	position: fixed;
+	margin-left: 95%;
+	margin-top: 22%;
+	width: 10%;
+}
+.up img {
+	width: 50%;
+}
+.button {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+
+    padding: 1%;
+    background: rgb(129, 40, 72);
+    color: white;
+    text-align: center;
+    font-family: Capture;
+    letter-spacing: 2px;
+
+    }
+
+.form_add {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    margin-right: 5%;
+    }
+ .input {
+	padding: 5%;
+	margin-bottom: 0%;
+}
+.auth {
+	width: 100%;
+}
+.auth_button {
+	padding: 2%;
+    background: rgb(129, 40, 72);
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    font-family: Capture;
+    letter-spacing: 2px;
+}
+.register_text {
+	margin-top: 10%;
+    font-size: 9pt;
+}
+.register_text a {
+	color: rgb(129, 40, 72);
+}
+.quit {
+	width: 95%;
+	text-align: right;
+}
+.quit a {
+    color: rgb(129, 40, 72);
+}
+.search {
+	width: 60%;
+    float: left;
+    margin-left: 5%;
+    padding-bottom: 2%;
+}
+.name_car {
+	float: left;
+    margin-right: 2%;
+    padding: 1%;
+}
+.auth_input {
+	margin-bottom: 5%;
+	width: 100%;
+	padding: 1%;
+}
+.register_text_error {
+	margin-top: 10%;
+    font-size: 14pt;
+}
+.el-car {
+	width: 95%;
+	border:none;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 40px;
+	margin-bottom: 3%;
+
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.td-img {
+	width: 20%;
+    margin-left: 2%;
+}
+.td-img img {
+	width: 100%;
+	border-radius: 40px;
+}
+.td-text {
+	margin-left: 2%;
+    width: 70%;
+    padding: 2% 0% 2% 0%;
+}
+.detail_button {
+	padding: 1%;
+    background: rgb(129, 40, 72);
+    color: white;
+    width: 15%;
+    text-align: center;
+    font-family: Capture;
+    letter-spacing: 2px;
+}
+footer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    width: 100%;
+    padding-top: 3%;
+}
+.footer_contact, .h3{
+     -webkit-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    align-self: auto;
+}
+.detail-car {
+    margin-top: 2%;
+}
+.pad {
+    padding-bottom: 3%;
+}
+.up-form, .add-form  {
+    width: 40%;
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 40px;
+    margin-bottom: 3%;
+    padding: 3%;
+    margin-left: 30%;
+}
+
+.up-form input, .up-form textarea, .add-form input, .add-form textarea {
+    width: 100%;
+}
+
+.up-button, .add-button {
+    padding: 1%;
+    background: rgb(129, 40, 72);
+    color: white;
+    text-align: center;
+    font-family: Capture;
+    letter-spacing: 2px;
+    width: 50% !important;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.details-car {
+    width: 95%;
+    border:none;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 40px;
+    margin-bottom: 3%;
+
+
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-content: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    align-items: center;
+
+    padding: 2%;
+}
+.dc-img {
+    width: 60%;
+    padding: 1%;
+}
+.dc-img img {
+    width: 100%;
+}
